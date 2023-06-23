@@ -5,11 +5,13 @@ body {
     font-weight: bold;
     text-align: center;
     height: 100vh;
-    color: #fff;
+    
     
 }
 .container{
-    background: white;
+    background: whitesmoke;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
 h1 {
@@ -35,10 +37,14 @@ button {
 }
 
 #increment-btn {
-    background: darkred;
+    background: #1C7947;
 }
 
 #save-btn {
-    background: darkgreen;
+    background: #2C2891;
 }
+#save-el {
+    font-weight: bold;
+}
+
 

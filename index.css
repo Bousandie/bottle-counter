@@ -10,7 +10,8 @@ body {
 }
 .container{
     background: whitesmoke;
-    backdrop-filter: blur;
+    color: rgba(100 80 60 0.6);
+    margin: auto
     border: 5px solid black;
     max-width: 80%;
     border-radius: 10px;

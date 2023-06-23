@@ -10,8 +10,9 @@ body {
 }
 .container{
     background: whitesmoke;
-    color: rgba(100 80 60 0.6);
-    margin: auto
+    color: white;
+    filter: blur;
+    margin: auto;
     border: 5px solid black;
     max-width: 80%;
     border-radius: 10px;
@@ -44,7 +45,7 @@ button {
 }
 #increment-btn:hover{
     font-width: bold;
-    background: rose;
+    background: skyblue;
 }
 
 #save-btn {

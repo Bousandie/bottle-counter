@@ -10,10 +10,10 @@ body {
 }
 .container{
     background: whitesmoke;
+    backdrop-filter: blur;
     border: 5px solid black;
-    max-width: 75%;
+    max-width: 80%;
     border-radius: 10px;
-    margin: 20px
 }
 
 h1 {
@@ -41,9 +41,17 @@ button {
 #increment-btn {
     background: #1C7947;
 }
+#increment-btn:hover{
+    font-width: bold;
+    background: rose;
+}
 
 #save-btn {
     background: #2C2891;
+}
+#save-btn:hover{
+    background: grey;
+    font-width: bold;
 }
 #save-el {
     font-weight: bold;

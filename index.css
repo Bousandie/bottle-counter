@@ -5,14 +5,11 @@ body {
     font-weight: bold;
     text-align: center;
     height: 100vh;
-    color: black;
-    
     
 }
 .container{
     background: whitesmoke;
     color: white;
-    filter: blur;
     margin: auto;
     border: 5px solid black;
     max-width: 80%;
